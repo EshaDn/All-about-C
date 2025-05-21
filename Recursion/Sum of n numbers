@@ -1,0 +1,16 @@
+#include <stdio.h>
+int sumofnum(int n){
+    if(n= =1)
+        return 1;
+    else
+        return(n+sumofnum(n-1));
+}
+int main(){
+    int n, res;
+    printf("Enter a number:");
+    scanf("%d",&n);
+    res=sumofnum(n);
+    printf("The sum of the numbers are %d\n",res);
+    return 0;
+    
+}
