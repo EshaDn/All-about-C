@@ -1,6 +1,6 @@
 #include <stdio.h>
 int sumofnum(int n){
-    if(n= =1)
+    if(n==1)
         return 1;
     else
         return(n+sumofnum(n-1));
